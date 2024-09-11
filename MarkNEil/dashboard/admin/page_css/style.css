@@ -1,0 +1,72 @@
+/* Reset some default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0e6f0, #f4f7f6);
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Main section styling */
+main {
+    margin-top: 20px;
+}
+
+/* Button styling */
+button.signout-btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+}
+
+button.signout-btn a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+button.signout-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button.signout-btn:active {
+    background-color: #004a9e;
+    transform: scale(1);
+}
